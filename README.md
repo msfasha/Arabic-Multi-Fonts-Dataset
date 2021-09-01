@@ -10,5 +10,7 @@ The binary files stores all the image files in binary format.\
 The text file include information about the image word and the location of that image in the binary file.
 The binary file format is suitable for transferring images to the cloud, in addition to faster loading process which is suitable for large number of images.
 
-The dataset files can be found at:
+This dataset was used to train Deep Learning Arabic OCR model (https://github.com/msfasha/Arabic-Deep-Learning-OCR).
+
+The dataset be downloaded from :
 https://drive.google.com/drive/folders/1mRefmN4Yzy60Uh7z3B6cllyyOXaxQrgg
