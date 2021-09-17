@@ -12,7 +12,8 @@ The binary file format is suitable for transferring images to the cloud, in addi
 
 This dataset was used to train Deep Learning Arabic OCR model (https://github.com/msfasha/Arabic-Deep-Learning-OCR).
 
-A sample code for loading images from the dataset can be found at :(https://github.com/msfasha/Arabic-Deep-Learning-OCR/blob/master/src/DataGenerator_BinaryFile.py). This module has functions that splits the binary file into training, validation and testing datasets according to predefined ratios. The module also includes functions to load and iterate batches from each of the created splits/datasets.
+A sample code for loading images from the dataset can be found at :(https://github.com/msfasha/Arabic-Deep-Learning-OCR/blob/master/src/DataGenerator_BinaryFile.py). This module has functions that splits the binary file into trainivalidation and testing datasets according to predefined ratios. The module also includes functions to load and iterate batches from each of the created splits/datasets which can be easily consumed by Tensor
+flow models as presented in (https://github.com/msfasha/Arabic-Deep-Learning-OCR).
 
-The dataset be downloaded from :
+Sample datasets can be downloaded from :
 https://drive.google.com/drive/folders/1mRefmN4Yzy60Uh7z3B6cllyyOXaxQrgg
